@@ -7,6 +7,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 public class Tutorial {
   @Id
   private String id;
+  private String idnew;
 
   private String title;
   private String description;
